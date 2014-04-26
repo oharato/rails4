@@ -10,6 +10,19 @@ vagrant:vagrant
 
 
 
+    heroku login
+    Email: oharato@live.jp
+    Password: your-password
+
+ You don't have any apps; deploy a sample application.
+
+    git clone git://github.com/heroku/ruby-sample.git
+    cd ruby-sample
+    heroku create
+    git push heroku master
+    heroku open
+
+
 ■Chap01
 ●Rubyのバージョン確認
 > ruby -v
