@@ -1,5 +1,5 @@
 sudo yum -y update
-sudo yum -y install git gcc openssl-devel sqlite-devel gcc-c++
+sudo yum -y install git gcc openssl-devel sqlite-devel gcc-c++ readline-devel postgresql-devel
 cd ~
 wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
 tar zxvf node-v0.10.26.tar.gz

@@ -1,3 +1,15 @@
+mkdir rails4
+cd rails4
+vagrant init chef/centos-6.5
+
+change private address of Vagrantfile like
+config.vm.network "private_network", ip: "192.168.33.11"
+
+access VM by terminal like putty
+vagrant:vagrant
+
+
+
 ■Chap01
 ●Rubyのバージョン確認
 > ruby -v
